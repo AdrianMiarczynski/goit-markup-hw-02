@@ -1,0 +1,94 @@
+body {
+  position: relative;
+  width: 1600px;
+  height: 2349px;
+  background: #ffffff;
+  font-family: Roboto;
+}
+.header {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0,02em;
+}
+.logo {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-decoration: none;
+  position: absolute;
+  font-family: 'Raleway';
+}
+.Web {
+  color: #2196f3;
+}
+/*do poprawki*/
+.navigation {
+  position: absolute;
+  width: 254px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+}
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.agency 
+{
+  position: absolute;
+  width: 53px;
+  height: 16px;
+  font-weight: 500;
+  color: #2196f3;
+}
+.portfolio
+{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    color: #212121;
+}
+.contact
+{
+    position: absolute;
+    width: 51px;
+    height: 16px;
+    left: 150px;
+    color: #212121;
+}
+/*do poprawki*/
+.email
+{
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 1078px;
+    top: 32px;
+    color: #2196F3;
+}
+.telephone
+{
+    position: absolute;
+    width: 110px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
+    color: #757575;
+}
+/*finish menu*/
