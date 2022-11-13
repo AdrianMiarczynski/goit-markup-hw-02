@@ -182,3 +182,142 @@ body {
     margin-bottom: 0;
 }
 /*finish atributes*/
+.what_we_do
+{
+    position: absolute;
+    width: 1170px;
+    height: 386px;
+    left: 215px;
+    top: 969px;       
+}
+.second_header
+{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin: 0;
+}
+.what_we_do ul
+{
+    list-style: none;
+    padding: 0;
+}
+.what_we_do ul li
+{
+    margin-top: 50px;
+}
+.computer
+{
+    float: left;
+}
+.phone
+{
+    float: left;
+    margin-left: 30px;
+}
+.tablet
+{
+    margin-left: 30px;
+}
+/*finish what we do*/
+.our_team
+{
+    position: absolute;
+    height: 648px;
+    width: 1600px;
+    left: 0px;
+    top: 1449px;
+    background: #F5F4FA;
+}
+.third_header
+{
+    width: 210px;
+    height: 42px;
+    margin: 94px 695px 50px 695px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.our_team ul
+{
+    position: absolute;
+    width: 1170px;
+    height: 368px;
+    margin: 0px 0px 0px 215px;
+    padding: 0;
+    list-style: none;
+}
+
+.our_team ul li
+{
+    width: 270px;
+    height: 368px;
+    top: 1635px;
+    float: left;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.second_img
+{
+    margin-left: 30px;
+}
+.third_img
+{
+    margin-left: 30px;
+}
+.fourth_img
+{
+    margin-left: 30px;
+}
+.name
+{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #212121;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.job
+{
+    width: 130px;
+    height: 19px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 30px;
+}
+/*finish our team*/
+.footer
+{
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background: #2F303A;
+    letter-spacing: 0.03em;
+}
+.logo_second
+{
+   
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 2157px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #2196F3;
+    margin: 60px 1240px 161px 215px;
+}
+.Studio
+{
+    color: #FFFFFF;
+}
