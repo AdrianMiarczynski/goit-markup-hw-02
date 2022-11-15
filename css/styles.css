@@ -371,20 +371,51 @@ body {
     width: 1170px;
     height: 1360px;
     margin-left: 215px;
-    background: #EEEEEE;
+    background: #FFFFFF;
     margin-top: 94px;
     margin-bottom: 94px;
 }
 .filters
 {
+    margin-left: 295px;
     width: 572px;
     height: 54px;
+    left: 510px;
     padding: 0px;
-    margin: 0;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .filters li
 {
     float: left;
     list-style: none;
+    text-align: center;
+    background: #F5F4FA;
 }
+.filters li .all
+{
+    width: 121px;
+    height: 38px;
+}
+.filters li .pages
+{
+    width: 93px;
+    height: 38px;
+}
+.filters li .aplications
+{
+    width: 114px;
+    height: 38px;
+}
+.filters li .design
+{
+    width: 91px;
+    height: 38px;
+}
+.filters li .marketing
+{
+    width: 121px;
+    height: 38px;
+}
+/*finish filters*/
