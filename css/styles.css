@@ -188,13 +188,15 @@ body {
 }
 .second_header
 {
+    width: 210px;
+    height: 42px;
+    margin-left: 480px;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    margin: 0;
 }
 .what_we_do ul
 {
@@ -297,6 +299,7 @@ body {
 /*finish our team*/
 .footer
 {
+    position: absolute;
     width: 1600px;
     height: 252px;
     background: #2F303A;
@@ -304,6 +307,9 @@ body {
 }
 .logo_second
 {
+    position: absolute;
+    left: 215px;
+    top: 60px;
     width: 145px;
     height: 31px;
     font-weight: 700;
@@ -312,7 +318,6 @@ body {
     color: #2196F3;
     text-decoration: none;
 }
-
 .Studio
 {
     color: #FFFFFF;
@@ -331,7 +336,6 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    margin: 0;
 }
 .data a
 {
