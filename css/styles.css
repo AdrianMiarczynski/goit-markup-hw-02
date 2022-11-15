@@ -374,6 +374,7 @@ body {
     background: #FFFFFF;
     margin-top: 94px;
     margin-bottom: 94px;
+    color: #212121;
 }
 .filters
 {
@@ -392,6 +393,7 @@ body {
     list-style: none;
     text-align: center;
     background: #F5F4FA;
+    margin-left: 6px;
 }
 .filters li .all
 {
@@ -419,3 +421,40 @@ body {
     height: 38px;
 }
 /*finish filters*/
+.img_project
+{
+   padding: 0;
+}
+.img_project li
+{
+    list-style: none;
+    float: left;
+}
+.img_project li .box_img
+{
+   margin: 0;
+   margin-right: 20px;
+   margin-bottom: 30px;
+}
+.img_project li .box_img img
+{
+    width: 370px;
+    height: 294px;
+}
+.list_item
+{
+    width: 322px;
+    height: 70px;
+    letter-spacing: 0.06em;
+}
+.list_item h3
+{
+    margin-bottom: 4px;
+    margin-top: 20px;
+}
+.list_item p
+{
+    color: #757575;
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
