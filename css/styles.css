@@ -21,7 +21,7 @@ body {
 .logo {
   width: 145px;
   height: 31px;
-  left: 215px;
+  margin-left: 215px;
   top: 24px;
   font-weight: 700;
   font-size: 26px;
@@ -44,35 +44,38 @@ body {
   left: 453px;
   top: 32px;
 }
-.navigation ul {
+.navigation ul 
+{
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+.navigation ul li
+{
+  float: left;
+}
+
 .agency 
 {
-  position: absolute;
   width: 53px;
   height: 16px;
   font-weight: 500;
   color: #2196f3;
+  text-decoration: none;
 }
 .portfolio
 {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
+    margin-left: 46px;
     color: #212121;
+    text-decoration: none;    
 }
 .contact
 {
-    position: absolute;
+    margin-left: 46px;
     width: 51px;
     height: 16px;
-    left: 150px;
     color: #212121;
+    text-decoration: none;
 }
 /*do poprawki*/
 .email
@@ -83,6 +86,7 @@ body {
     left: 1078px;
     top: 32px;
     color: #2196F3;
+    text-decoration: none;
 }
 .telephone
 {
@@ -92,6 +96,7 @@ body {
     left: 1263px;
     top: 32px;
     color: #757575;
+    text-decoration: none;
 }
 /*finish menu*/
 .header
