@@ -7,7 +7,6 @@ body {
   color: #757575;
 }
 .menu {
-  position: absolute;
   width: 1600px;
   height: 80px;
   left: 0px;
@@ -15,7 +14,6 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 0,02em;
 }
 .logo {
   width: 145px;
@@ -59,6 +57,7 @@ body {
   font-weight: 500;
   color: #2196f3;
   text-decoration: none;
+  
 }
 .portfolio
 {
@@ -116,7 +115,6 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
-    letter-spacing: 0,06em;
     text-transform: uppercase;
     color: #ffffff;
     margin: 0;
@@ -345,28 +343,36 @@ body {
     line-height: 24px;
     margin: 0;
 }
-.data
+.data a
 {
     width: 246px;
-    height: 20px;
+    height: 21px;
     font-weight: 400;
     color: #FFFFFF;
-    margin-bottom: 9px;
+    text-decoration: none;
 }
-.contact_link
+.contact_link a
 {
-    
     width: 231px;
     height: 21px;
     margin-top: 9px;
     margin-bottom: 9px;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
-.contact_tel
+.contact_tel a
 {
     position: absolute;
     width: 231px;
     height: 21px;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 /*finish footer*/
+/*Portfolio*/
+.portfolio
+{
+    width: 1170px;
+    height: 1360px;
+    background-color: #EEEEEE;
+}
