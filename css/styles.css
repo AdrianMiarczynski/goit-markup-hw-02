@@ -197,12 +197,13 @@ body {
 }
 .second_header
 {
-    width: 210px;
+    width: 352px;
     height: 42px;
-    margin-left: 480px;
+    margin-left: 409px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
+    white-space: nowrap;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -246,6 +247,7 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
+    white-space: nowrap;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -406,7 +408,6 @@ body {
     float: left;
     list-style: none;
     text-align: center;
-    background: #F5F4FA;
     margin-left: 6px;
     font-size: 1.62em;
 }
@@ -417,6 +418,12 @@ body {
     background-color: #2196F3;
     color: #FFFFFF;
     cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+.filters li button
+{
+    background-color: #F5F4FA;
     border: none;
     border-radius: 4px;
 }
