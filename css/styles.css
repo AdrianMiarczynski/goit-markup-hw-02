@@ -135,6 +135,7 @@ body {
     top: 350px;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: #2196F3;
     border-radius: 4px;
 }
 .service
@@ -347,6 +348,12 @@ body {
     font-size: 14px;
     line-height: 24px;
 }
+.address ul li a:focus,
+.address ul li a:hover,
+.address ul li a:active
+{
+    color: rgba(255, 255, 255, 0.6);
+}
 .data a
 {
     width: 246px;
@@ -361,7 +368,7 @@ body {
     height: 21px;
     margin-top: 9px;
     margin-bottom: 9px;
-    color: rgba(255, 255, 255, 0.6);
+    color: #FFFFFF;
     text-decoration: none;
 }
 .contact_tel a
@@ -369,7 +376,7 @@ body {
     position: absolute;
     width: 231px;
     height: 21px;
-    color: rgba(255, 255, 255, 0.6);
+    color: #FFFFFF;
     text-decoration: none;
 }
 /*finish footer*/
