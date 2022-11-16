@@ -41,29 +41,39 @@ body {
   left: 453px;
   top: 32px;
 }
+.navigation:focus 
+{
+  color: #2196f3;  
+}   
 .navigation ul 
 {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-.navigation ul li
+.navigation ul li a
 {
   float: left;
+  color: #212121;
+}
+.navigation ul li a:hover
+{
+  color: #2196f3;  
 }
 .agency 
 {
   width: 53px;
   height: 16px;
   font-weight: 500;
-  color: #2196f3;
   text-decoration: none;
-  
+}
+.agency:active
+{
+    color: #2196f3;  
 }
 .portfolio
 {
     margin-left: 46px;
-    color: #212121;
     text-decoration: none;    
 }
 .contact
@@ -71,7 +81,6 @@ body {
     margin-left: 46px;
     width: 51px;
     height: 16px;
-    color: #212121;
     text-decoration: none;
 }
 /*finish navigation*/
@@ -82,8 +91,12 @@ body {
     height: 16px;
     left: 1078px;
     top: 32px;
-    color: #2196F3;
+    color: #757575;
     text-decoration: none;
+}
+.email:hover
+{
+    color: #2196F3;
 }
 .telephone
 {
@@ -323,7 +336,7 @@ body {
 {
     color: #FFFFFF;
 }
-.address
+.address, .address:focus
 {
    margin-top: 111px;
    width: 246px;
@@ -387,6 +400,7 @@ body {
     margin-top: 0;
     margin-bottom: 0;
 }
+
 .filters li
 {
     float: left;
@@ -395,11 +409,25 @@ body {
     background: #F5F4FA;
     margin-left: 6px;
 }
+.filters li button:active,
+.filters li button:focus,
+.filters li button:hover
+{
+    background-color: #2196F3;
+    color: #FFFFFF;
+    cursor: pointer;
+}
 .filters li .all
 {
     width: 121px;
     height: 38px;
 }
+.filters li .all:active
+{
+    background-color: #2196F3;
+    color: white;
+}
+
 .filters li .pages
 {
     width: 93px;
