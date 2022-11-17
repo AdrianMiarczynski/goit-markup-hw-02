@@ -37,7 +37,7 @@ body {
   position: absolute;
   font-family: 'Raleway';
 }
-.Web {
+.web {
   color: var(--color-blue);
 }
 .navigation {
@@ -248,9 +248,7 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.second-img,
-.third-img,
-.fourth-img {
+.picture-img {
   margin-left: 30px;
 }
 .name {
@@ -288,7 +286,7 @@ body {
   color: var(--color-blue);
   text-decoration: none;
 }
-.Studio {
+.studio {
   color: var(--color-background);
 }
 .address,
