@@ -1,10 +1,20 @@
+:root
+{
+    --color-background:#ffffff;
+    --color-grey:#757575;
+    --color-black:#000000;
+    --color-blue: #2196f3;
+    --color-almost-black: #212121;
+    --color-header-footer: #2F303A;
+    --color-third-header-button: #F5F4FA;
+}
 body {
   position: relative;
   width: 1600px;
   height: 2349px;
-  background: #ffffff;
+  background: var(--color-background);
   font-family: 'Roboto', sans-serif;
-  color: #757575;
+  color: var(--color-grey);
 }
 .menu {
   width: 1600px;
@@ -23,13 +33,13 @@ body {
   font-size: 26px;
   line-height: 1.38;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--color-black);
   text-decoration: none;
   position: absolute;
   font-family: 'Raleway';
 }
 .Web {
-  color: #2196f3;
+  color: var(--color-blue);
 }
 .navigation 
 {
@@ -48,14 +58,14 @@ body {
 .navigation ul li a
 {
   float: left;
-  color: #212121;
+  color: var(--color-almost-black);
 }
 
 .navigation ul li a:focus,
 .navigation ul li a:hover,
 .navigation ul li a:active
 {
-  color: #2196f3;  
+  color: var(--color-blue);  
 }
 .agency 
 {
@@ -84,13 +94,13 @@ body {
     height: 16px;
     left: 1078px;
     top: 32px;
-    color: #757575;
+    color: var(--color-grey);
     text-decoration: none;
 }
 .email:hover,
 .email:focus
 {
-    color: #2196F3;
+    color: var(--color-blue);
 }
 .telephone
 {
@@ -99,7 +109,7 @@ body {
     height: 16px;
     left: 1263px;
     top: 32px;
-    color: #757575;
+    color: var(--color-grey);
     text-decoration: none;
 }
 /*finish menu*/
@@ -107,7 +117,7 @@ body {
 {
     width: 1600px;
     height: 600px;
-    background: #2F303A;
+    background: var(--color-header-footer);
     text-align: center;
 }
 .first-header
@@ -121,7 +131,7 @@ body {
     font-size: 44px;
     line-height: 1.36;
     text-transform: uppercase;
-    color: #ffffff;
+    color: var(--color-background);
     margin: 0;
 }
 .button
@@ -131,9 +141,9 @@ body {
     height: 50px;
     left: 700px;
     top: 350px;
-    background: #2196F3;
+    background: var(--color-blue);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border: #2196F3;
+    border: var(--color-blue);
     border-radius: 4px;
 }
 .service
@@ -143,7 +153,7 @@ body {
     line-height: 1.88;
     align-items: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--color-background);
 }
 /*finish header*/
 .attributes
@@ -173,7 +183,7 @@ body {
 .lorem
 {
    text-transform: uppercase;
-   color: #212121;
+   color: var(--color-almost-black);
    line-height: 1.71;
    font-weight: 700;
 }
@@ -205,7 +215,7 @@ body {
     white-space: nowrap;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--color-almost-black);
 }
 .what-we-do ul
 {
@@ -235,7 +245,7 @@ body {
     height: 648px;
     width: 1600px;
     left: 0px;
-    background: #F5F4FA;
+    background: var(--color-third-header-button);
 }
 .third-header
 {
@@ -249,7 +259,7 @@ body {
     white-space: nowrap;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--color-almost-black);
 }
 .our-team ul
 {
@@ -269,7 +279,7 @@ body {
     float: left;
     text-align: center;
     letter-spacing: 0.03em;
-    background: #FFFFFF;
+    background: var(--color-background);
     box-shadow:  0px 1px 3px rgba(0, 0, 0, 0.12),
                  0px 1px 1px rgba(0, 0, 0, 0.14),
                  0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -293,7 +303,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    color: #212121;
+    color: var(--color-almost-black);
     margin-top: 30px;
     margin-bottom: 10px;
 }
@@ -311,7 +321,7 @@ body {
     position: absolute;
     width: 1600px;
     height: 252px;
-    background: #2F303A;
+    background: var(--color-header-footer);
     letter-spacing: 0.03em;
 }
 .logo-second
@@ -324,12 +334,12 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: #2196F3;
+    color: var(--color-blue);
     text-decoration: none;
 }
 .Studio
 {
-    color: #FFFFFF;
+    color: var(--color-background);
 }
 .address, .address:focus
 {
@@ -354,7 +364,7 @@ body {
 {
     width: 246px;
     height: 21px;
-    color: #FFFFFF;
+    color: var(--color-background);
     text-decoration: none;
 }
 .contact-link a
@@ -363,7 +373,7 @@ body {
     height: 21px;
     margin-top: 9px;
     margin-bottom: 9px;
-    color: #FFFFFF;
+    color: var(--color-background);
     text-decoration: none;
 }
 .contact-tel a
@@ -371,7 +381,7 @@ body {
     position: absolute;
     width: 231px;
     height: 21px;
-    color: #FFFFFF;
+    color: var(--color-background);
     text-decoration: none;
 }
 /*finish footer*/
@@ -382,10 +392,10 @@ body {
     width: 1170px;
     height: 1360px;
     margin-left: 215px;
-    background: #FFFFFF;
+    background: var(--color-background);
     margin-top: 94px;
     margin-bottom: 94px;
-    color: #212121;
+    color: var(--color-almost-black);
 }
 .filters
 {
@@ -411,15 +421,15 @@ body {
 .filters li button:focus,
 .filters li button:hover
 {
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: var(--color-blue);
+    color: var(--color-background);
     cursor: pointer;
     border: none;
     border-radius: 4px;
 }
 .filters li button
 {
-    background-color: #F5F4FA;
+    background-color: var(--color-third-header-button);
     border: none;
     border-radius: 4px;
 }
@@ -430,7 +440,7 @@ body {
 }
 .filters li .all:active
 {
-    background-color: #2196F3;
+    background-color: var(--color-blue);
     color: white;
 }
 
@@ -490,7 +500,7 @@ body {
 }
 .list-item p
 {
-    color: #757575;
+    color: var(--color-grey);
     margin-top: 4px;
     margin-bottom: 20px;
     font-size: 16px;
