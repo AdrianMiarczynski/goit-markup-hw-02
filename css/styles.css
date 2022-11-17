@@ -179,7 +179,6 @@ body {
 }
 .attributes ul li .lorem 
 {
-    font-weight: 400;
     line-height: 1.46;
 }
 .attributes ul li p
@@ -302,7 +301,6 @@ body {
 {
     width: 130px;
     height: 19px;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     margin-bottom: 30px;
@@ -344,7 +342,6 @@ body {
 {
     list-style: none;
     padding: 0;
-    font-weight: 400;
     font-size: 14px;
 }
 .address ul li a:focus,
@@ -357,7 +354,6 @@ body {
 {
     width: 246px;
     height: 21px;
-    font-weight: 400;
     color: #FFFFFF;
     text-decoration: none;
 }
