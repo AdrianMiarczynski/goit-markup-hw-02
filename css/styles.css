@@ -160,13 +160,13 @@ body {
   margin-left: 30px;
 }
 
-.text {
+.attributes-text {
   text-transform: uppercase;
   color: var(--color-almost-black);
   line-height: 1.71;
   font-weight: 700;
 }
-.attributes ul li .text {
+.attributes ul li .attributes-text {
   line-height: 1.46;
 }
 .attributes ul li p {
